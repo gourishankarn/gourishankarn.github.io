@@ -13,13 +13,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: '16'  # Changed from 18 to 16
           
       - name: Install dependencies
         run: yarn install
         
       - name: Build
-        run: NODE_OPTIONS="--openssl-legacy-provider" npm run build
+        run: npm run build
         
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
