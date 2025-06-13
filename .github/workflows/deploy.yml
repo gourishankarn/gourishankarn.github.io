@@ -10,7 +10,7 @@ permissions:
   id-token: write
 
 jobs:
-  build:
+  Deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -19,7 +19,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18.20.8'
-          cache: 'yarn'
 
       - name: Install Yarn
         run: npm install -g yarn
