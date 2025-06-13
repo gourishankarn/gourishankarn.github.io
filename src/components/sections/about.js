@@ -135,10 +135,10 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Gourishankar, I am a Senior DevOps Engineer with 6+ years of experience in cloud infrastructure,
+automation, and end-to-end delivery. Skilled in scaling systems, cost optimization,
+CI/CD, and SRE practices, with a focus on performance, reliability
+and leading high-performing DevOps teams.
             </p>
 
             <p>
