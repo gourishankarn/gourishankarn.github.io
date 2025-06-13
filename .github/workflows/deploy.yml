@@ -20,6 +20,9 @@ jobs:
         with:
           node-version: '18.20.8'
           cache: 'yarn'
+
+      - name: Install Yarn
+        run: npm install -g yarn
           
       - name: Install dependencies
         run: yarn install
